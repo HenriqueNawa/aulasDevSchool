@@ -1,6 +1,6 @@
 package tiposVariaveis;
 
-public class Variaveis {
+public class VariaveisPrimitivas {
 	public static void main(String []args) {
 	//Declaração de variável tipo + nome
 	
@@ -12,7 +12,7 @@ public class Variaveis {
 	
 	char sexo = 'M'; //somente um caracter é possível, tamanho de 2 bytes
 	
-	int precoFerrari = 148000; //Valores de -2.147.483.648 a 2.147.483.647,  tamanho de 4 bytes
+	int precoFerrari = 1480000; //Valores de -2.147.483.648 a 2.147.483.647,  tamanho de 4 bytes
 	
 	float valorDolar = 5.06f; //Ponto flutuante de 6 a 7 casas decimais,tamanho de 4 bytes
 	
@@ -29,5 +29,6 @@ public class Variaveis {
 	System.out.println("Exemplo de long  = " + telefone);
 	System.out.println("Exemplo de double = " + pi);
 	
+
 	}
 }
