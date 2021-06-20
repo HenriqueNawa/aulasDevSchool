@@ -2,6 +2,8 @@ package myapp;
 
 import java.text.SimpleDateFormat;
 
+import javax.swing.text.MaskFormatter;
+
 import myapp.cadastros.Empresa;
 import myapp.pedidos.Pedido;
 
@@ -11,13 +13,17 @@ public class PrinterApp {
 		//CRIAR O OBJETO - ENDERECO - LOGRADOURO, NUMERO, BAIRRO, CIDADE - SIGLA ESTADO
 		//FORMATAR O CNPJ, IE, EM - PLUS
 		
-		System.out.printf("Mr.%2$s,%1$s\n\n", "GLEYSON", "SAMPAIO");
+		System.out.printf("Mr.%2$s,%1$s\n\n", "HENRIQUE", "NAWA");
 		
 		Empresa empresa = pedido.getEmpresa();
 		
+		String endereco = empresa.getCadastro().getLogradouro() + ", " + empresa.getCadastro().getNumero() + ", " +
+				empresa.getCadastro().getBairro() + " - " + empresa.getCadastro().getEstado();
+		
+		
 		StringBuilder sb = new StringBuilder();
 		sb.append(empresa.getCadastro().getNome() + "\n");
-		sb.append(empresa.getCadastro().getEndereco() + "\n");
+		sb.append(String.format("%s \n", endereco));
 		sb.append(String.format("CNPJ: %s \n", empresa.getCadastro().getCpfCnpj()));
 		sb.append(String.format("IE: %d\nIM: %d\n",empresa.getIe(), empresa.getIm()));
 		sb.append("------------------------------------------------------------------\n");

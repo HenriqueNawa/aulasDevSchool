@@ -43,7 +43,11 @@ public class Application {
 				Cadastro cadEmpresa = new Cadastro();
 				cadEmpresa.setCpfCnpj("12345678900001");
 				cadEmpresa.setEmail("pedidos@.pedidos.com");
-				cadEmpresa.setEndereco("Rua inacio de nobrega,  1036, centro - SP");
+				cadEmpresa.setLogradouro("Rua Inácio de Nobrega"); //1036, centro - SP\"
+				cadEmpresa.setNumero(1036);
+				cadEmpresa.setBairro("Centro");
+				cadEmpresa.setCidade("São Paulo");
+				cadEmpresa.setEstado("SP");
 				cadEmpresa.setNome("IFOOD PEDIDOS");
 				cadEmpresa.setTelefone(11987654321L);
 				empresa.setCadastro(cadEmpresa);
