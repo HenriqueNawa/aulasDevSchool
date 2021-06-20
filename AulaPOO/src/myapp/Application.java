@@ -47,6 +47,7 @@ public class Application {
 				cadEmpresa.setEmail("pedidos@.pedidos.com");
 				endereco.setBairro("Centro");
 				endereco.setNumero(100);
+				endereco.setCidade("São Paulo");
 				endereco.setEstado("SP");
 				endereco.setLogradouro("Rua X");
 				cadEmpresa.setEndereco(endereco);

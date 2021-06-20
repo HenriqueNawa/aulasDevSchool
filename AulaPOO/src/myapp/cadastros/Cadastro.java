@@ -8,8 +8,7 @@ public class Cadastro {
 	private String email;
 	private String cpfCnpj;
 	private Endereco endereco;
-	
-	
+
 	
 	public Endereco getEndereco() {
 		return endereco;

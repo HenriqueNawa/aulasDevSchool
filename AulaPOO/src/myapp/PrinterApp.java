@@ -17,13 +17,9 @@ public class PrinterApp {
 		
 		Empresa empresa = pedido.getEmpresa();
 		
-//		String endereco = empresa.getCadastro().getLogradouro() + ", " + empresa.getCadastro().getNumero() + ", " +
-//				empresa.getCadastro().getBairro() + " - " + empresa.getCadastro().getEstado();
-//		
-		System.out.println(empresa.getCadastro().getEndereco());
 		StringBuilder sb = new StringBuilder();
 		sb.append(empresa.getCadastro().getNome() + "\n");
-//		sb.append(String.format("%s \n", endereco));
+		sb.append(empresa.getCadastro().getEndereco() + "\n");
 		sb.append(String.format("CNPJ: %s \n", empresa.getCadastro().getCpfCnpj()));
 		sb.append(String.format("IE: %d\nIM: %d\n",empresa.getIe(), empresa.getIm()));
 		sb.append("------------------------------------------------------------------\n");
