@@ -40,7 +40,7 @@ public class Application {
 				p2.setArtista(artista);
 				
 				
-				Empresa empresa = new Empresa(908098l, 908908l);
+				Empresa empresa = new Empresa(99999999l, 999999999l);
 				Cadastro cadEmpresa = new Cadastro();
 				Endereco endereco = new Endereco();
 				cadEmpresa.setCpfCnpj("12345678900001"); 

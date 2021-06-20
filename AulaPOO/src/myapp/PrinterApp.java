@@ -18,12 +18,14 @@ public class PrinterApp {
 		Empresa empresa = pedido.getEmpresa();
 		
 		String formatarCnpj = empresa.getCadastro().getCpfCnpj().replaceAll("(\\d{2})(\\d{3})(\\d{3})(\\d{4})", "$1.$2.$3/$4-");
+		String formatarIe = empresa.getIe().toString().replaceAll("(\\d{3})(\\d{3})", "$1.$2.");
+		String formatarIm = empresa.getIm().toString().replaceAll("(\\d{2})(\\d{3})", "$1.$2.");
+
 		StringBuilder sb = new StringBuilder();
 		sb.append(empresa.getCadastro().getNome() + "\n");
 		sb.append(empresa.getCadastro().getEndereco() + "\n");
-//		sb.append(String.format("CNPJ: %s \n", empresa.getCadastro().getCpfCnpj()));
-		sb.append(formatarCnpj + "\n");
-		sb.append(String.format("IE: %d\nIM: %d\n",empresa.getIe(), empresa.getIm()));
+		sb.append(String.format("CNPJ: %s", formatarCnpj) + "\n");
+		sb.append(String.format("IE: %s\nIM: %s\n",formatarIe, formatarIm));
 		sb.append("------------------------------------------------------------------\n");
 		
 		//NUMA LINHA DATA FORMATADA - CCF (6) DIGITOS - COO (6DIGITOS)
