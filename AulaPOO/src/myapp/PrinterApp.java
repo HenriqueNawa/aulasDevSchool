@@ -1,8 +1,7 @@
 package myapp;
 
-import java.text.SimpleDateFormat;
 
-import javax.swing.text.MaskFormatter;
+import java.text.SimpleDateFormat;
 
 import myapp.cadastros.Empresa;
 import myapp.pedidos.Pedido;
