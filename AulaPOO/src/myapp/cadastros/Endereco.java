@@ -48,7 +48,6 @@ public class Endereco {
 	public String toString() {
 		StringBuilder endereco = new StringBuilder();
 		endereco.append(String.format("%s, %d, %s, %s-%s", getLogradouro(), getNumero(), getBairro(), getCidade(), getEstado()));
-//		String endereco = getLogradouro() + ", " + getNumero() + ", " + getBairro() + ", " + getCidade() + "-" + getEstado();
 		return endereco.toString();
 	}
 	

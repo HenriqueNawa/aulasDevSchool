@@ -17,10 +17,12 @@ public class PrinterApp {
 		
 		Empresa empresa = pedido.getEmpresa();
 		
+		String formatarCnpj = empresa.getCadastro().getCpfCnpj().replaceAll("(\\d{2})(\\d{3})(\\d{3})(\\d{4})", "$1.$2.$3/$4-");
 		StringBuilder sb = new StringBuilder();
 		sb.append(empresa.getCadastro().getNome() + "\n");
 		sb.append(empresa.getCadastro().getEndereco() + "\n");
-		sb.append(String.format("CNPJ: %s \n", empresa.getCadastro().getCpfCnpj()));
+//		sb.append(String.format("CNPJ: %s \n", empresa.getCadastro().getCpfCnpj()));
+		sb.append(formatarCnpj + "\n");
 		sb.append(String.format("IE: %d\nIM: %d\n",empresa.getIe(), empresa.getIm()));
 		sb.append("------------------------------------------------------------------\n");
 		
@@ -32,8 +34,7 @@ public class PrinterApp {
 		sb.append("------------------------------------------------------------------\n");
 		sb.append(String.format("TOTAL %.2f", pedido.getValorTotal()));
 		
-		
-		
+		 
 		
 		System.out.println(sb.toString());
 		/*

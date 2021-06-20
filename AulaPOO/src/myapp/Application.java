@@ -43,7 +43,7 @@ public class Application {
 				Empresa empresa = new Empresa(908098l, 908908l);
 				Cadastro cadEmpresa = new Cadastro();
 				Endereco endereco = new Endereco();
-				cadEmpresa.setCpfCnpj("12345678900001");
+				cadEmpresa.setCpfCnpj("12345678900001"); 
 				cadEmpresa.setEmail("pedidos@.pedidos.com");
 				endereco.setBairro("Centro");
 				endereco.setNumero(100);
@@ -51,11 +51,6 @@ public class Application {
 				endereco.setEstado("SP");
 				endereco.setLogradouro("Rua X");
 				cadEmpresa.setEndereco(endereco);
-//				cadEmpresa.setLogradouro("Rua Inácio de Nobrega"); 
-//				cadEmpresa.setNumero(1036);
-//				cadEmpresa.setBairro("Centro");
-//				cadEmpresa.setCidade("São Paulo");
-//				cadEmpresa.setEstado("SP");
 				cadEmpresa.setNome("IFOOD PEDIDOS");
 				cadEmpresa.setTelefone(11987654321L);
 				empresa.setCadastro(cadEmpresa);
