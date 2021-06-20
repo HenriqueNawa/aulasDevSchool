@@ -7,6 +7,7 @@ import java.util.List;
 import myapp.cadastros.CD;
 import myapp.cadastros.Cadastro;
 import myapp.cadastros.Empresa;
+import myapp.cadastros.Endereco;
 import myapp.factory.FabricaCadastro;
 import myapp.pedidos.Pedido;
 import myapp.pedidos.PedidoItem;
@@ -41,13 +42,19 @@ public class Application {
 				
 				Empresa empresa = new Empresa(908098l, 908908l);
 				Cadastro cadEmpresa = new Cadastro();
+				Endereco endereco = new Endereco();
 				cadEmpresa.setCpfCnpj("12345678900001");
 				cadEmpresa.setEmail("pedidos@.pedidos.com");
-				cadEmpresa.setLogradouro("Rua Inácio de Nobrega"); //1036, centro - SP\"
-				cadEmpresa.setNumero(1036);
-				cadEmpresa.setBairro("Centro");
-				cadEmpresa.setCidade("São Paulo");
-				cadEmpresa.setEstado("SP");
+				endereco.setBairro("Centro");
+				endereco.setNumero(100);
+				endereco.setEstado("SP");
+				endereco.setLogradouro("Rua X");
+				cadEmpresa.setEndereco(endereco);
+//				cadEmpresa.setLogradouro("Rua Inácio de Nobrega"); 
+//				cadEmpresa.setNumero(1036);
+//				cadEmpresa.setBairro("Centro");
+//				cadEmpresa.setCidade("São Paulo");
+//				cadEmpresa.setEstado("SP");
 				cadEmpresa.setNome("IFOOD PEDIDOS");
 				cadEmpresa.setTelefone(11987654321L);
 				empresa.setCadastro(cadEmpresa);

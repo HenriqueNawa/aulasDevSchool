@@ -1,6 +1,6 @@
 package myapp.cadastros;
 
-public class Cadastro extends Endereco{
+public class Cadastro {
 	//tipo + identificador = valor é opcional
 	private Integer id;
 	private String nome;
@@ -8,6 +8,7 @@ public class Cadastro extends Endereco{
 	private String email;
 	private String cpfCnpj;
 	private Endereco endereco;
+	
 	
 	
 	public Endereco getEndereco() {

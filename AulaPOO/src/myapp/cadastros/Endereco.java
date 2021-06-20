@@ -44,5 +44,11 @@ public class Endereco {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
+	@Override
+	public String toString() {
+		String endereco = getLogradouro() + ", " + getNumero() + ", " + getBairro() + " - " + getEstado();
+		
+		return endereco;
+	}
 	
 }
