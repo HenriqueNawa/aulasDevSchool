@@ -14,9 +14,16 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
     </ul>
  
   <li>Palavras reservadas</li>
+  <ul>  
+    <li>Palavras Reservadas Java => http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx</li>
+  </ul>  
+ 
   <li>Modificadores de acesso</li>
+  
   <li>Metodologia Ágil</li>
+  
   <li>POO</li>
+  
   <li>Comandos GIT e Github</li>
 </ul>
 
