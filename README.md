@@ -25,6 +25,10 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
   <li>POO</li>
   
   <li>Comandos GIT e Github</li>
+  
+  <li>Regex</li>
+  
+  <li>Criação de arquivos</li>
 </ul>
 
 ## Sites interessantes sobre Java
@@ -36,6 +40,7 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
 [Geeks for Geeks em Inglês](https://www.geeksforgeeks.org/java/?ref=shm)<br/>
 [Javatpoint em Inglês](https://www.javatpoint.com/java-tutorial)<br/>
 [W3schools em Inglês](https://www.w3schools.com/java/default.asp)<br/>
+[Baeldung em Inglês](https://www.baeldung.com)<br/>
 
 
 
