@@ -29,6 +29,8 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
   <li>Regex</li>
   
   <li>Criação de arquivos</li>
+  
+  <li>Conexão com Banco de Dados</li>
 </ul>
 
 ## Sites interessantes sobre Java
