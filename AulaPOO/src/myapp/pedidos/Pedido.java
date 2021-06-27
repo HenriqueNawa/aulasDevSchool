@@ -1,10 +1,10 @@
 package myapp.pedidos;
 
-import java.util.Date;
-import java.util.List;
-
 import myapp.cadastros.Cadastro;
 import myapp.cadastros.Empresa;
+
+import java.util.Date;
+import java.util.List;
 
 public class Pedido {
 	private Integer id;

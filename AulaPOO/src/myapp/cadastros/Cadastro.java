@@ -9,7 +9,6 @@ public class Cadastro {
 	private String cpfCnpj;
 	private Endereco endereco;
 
-	
 	public Endereco getEndereco() {
 		return endereco;
 	}

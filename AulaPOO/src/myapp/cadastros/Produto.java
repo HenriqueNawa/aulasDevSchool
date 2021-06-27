@@ -5,6 +5,7 @@ public abstract class Produto {
 	private String codigoBarras;
 	private String titulo;
 	private Double valorVenda;
+
 	public Integer getId() {
 		return id;
 	}

@@ -6,6 +6,7 @@ public class Endereco {
 	private String bairro;
 	private String cidade;
 	private String estado;
+	private Long cep;
 	private Cadastro cadastro;
 	
 	public Cadastro getCadastro() {
@@ -44,11 +45,11 @@ public class Endereco {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
-	@Override
-	public String toString() {
-		StringBuilder endereco = new StringBuilder();
-		endereco.append(String.format("%s, %d, %s, %s-%s", getLogradouro(), getNumero(), getBairro(), getCidade(), getEstado()));
-		return endereco.toString();
+	public Long getCep() {
+		return cep;
 	}
-	
+
+	public void setCep(Long cep) {
+		this.cep = cep;
+	}
 }
