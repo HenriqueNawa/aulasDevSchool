@@ -1,6 +1,6 @@
 --DDL(Data Definition Language) , comando ALTER TABLE
 --Retirar a obrigatoriedade das colunas não aceitarem nulls
-ALTER TABLE clientes ALTER COLUMN nomesColunas DROP NOT NULL;
+ALTER TABLE tab_clientes ALTER COLUMN nomesColunas DROP NOT NULL;
 --	[pj_pf ,
 --	razao_nome ,
 --	cpf_cnpj ,

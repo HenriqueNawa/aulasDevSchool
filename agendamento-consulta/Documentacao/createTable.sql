@@ -1,5 +1,5 @@
 --DDL (Data Definition Language)
-create table public.clientes (
+create table public.tab_clientes (
 	codigo serial NOT NULL PRIMARY KEY,
 	pj_pf character(1) NOT NULL,
 	razao_nome varchar(70) NOT NULL,

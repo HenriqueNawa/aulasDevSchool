@@ -1,2 +1,2 @@
 --DML (Data Manipulation Language)
-DELETE from public.clientes; 
+DELETE from public.tab_clientes; 

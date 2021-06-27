@@ -20,24 +20,25 @@ public class Menu {
 				+"2 - Alterar\n"
 				+ "3 - Excluir\n"
 				+ "4 - Visualizar todos os clientes\n"
-				+ "5 - Sair");
+				+ "5 - Buscar cliente\n"
+				+ "6 - Sair");
 		return sc.nextInt();
 	}
-	public static void operacao(int opcao) {
-		switch (opcao) {
-		case 1:
-			System.out.println("Nome: ");
-			nome = sc.nextLine();
-			System.out.println("Telefone: ");
-			telefone = sc.nextLong();
-			sc.nextLine();
-			
-			break;
-
-		default:
-			break;
-		}
+//	public static void operacao(int opcao) {
+//		switch (opcao) {
+//		case 1:
+//			System.out.println("Nome: ");
+//			nome = sc.nextLine();
+//			System.out.println("Telefone: ");
+//			telefone = sc.nextLong();
+//			sc.nextLine();
+//			
+//			break;
+//
+//		default:
+//			break;
+//		}
 		
-	}
+	
 
 }

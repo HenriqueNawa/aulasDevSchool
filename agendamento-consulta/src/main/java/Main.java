@@ -13,14 +13,12 @@ public class Main {
 		
 		Cadastro cadastro = new Cadastro();
 		
-//		int opcao = sc.nextInt();
-//		sc.nextLine();
 		int opcao = Menu.escolha();
 		int codigo;
 		String nome;
 		Long telefone;
 		
-		while (opcao != 5) {
+		while (opcao != 6) {
 			
 			switch (opcao) {
 			case 1:
@@ -56,19 +54,21 @@ public class Main {
 				dao.excluir(codigo);
 				opcao = Menu.escolha();
 				break;
-			case 5:
+			case 4:
+				System.out.println(dao.listar());
+				opcao = Menu.escolha();
+				break;
+			case 6:
 				break;
 			default:
+				System.out.println("Opção Inválida!");
+				opcao = Menu.escolha();
 				break;
 			}
 		}
 		
 		
-//		cadastro.setRazao_nome(Menu.nome);
-//		cadastro.setTelefone(Menu.telefone);
-//		
-//		dao.incluir(cadastro);
-//	
+
 		
 	}
 
