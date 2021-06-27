@@ -30,7 +30,11 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
   
   <li>Criação de arquivos</li>
   
-  <li>Conexão com Banco de Dados</li>
+  <li>Conexão com Banco de Dados com driver JDBC</li>
+  
+  <li>Conceitos de Banco de dados e SQL</li>
+  
+  <li>Framework JPA</li>
 </ul>
 
 ## Sites interessantes sobre Java
