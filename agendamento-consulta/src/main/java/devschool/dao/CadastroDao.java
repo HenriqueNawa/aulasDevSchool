@@ -89,7 +89,7 @@ public class CadastroDao {
 			ResultSet rs = st.executeQuery();
 			while (rs.next()) {
 				cadastro = new Cadastro();
-				cadastro.setCodigo(rs.getInt("cod"));
+				cadastro.setCodigo(rs.getInt("codigo"));
 				cadastro.setRazao_nome(rs.getString("razao_nome"));
 				cadastro.setTelefone(rs.getLong("telefone"));
 			}

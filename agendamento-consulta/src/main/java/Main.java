@@ -66,10 +66,15 @@ public class Main {
 				opcao = Menu.escolha();
 				break;
 				
-
-				
+			case 5:
+				System.out.println("Código do cliente: ");
+				codigo = sc.nextInt();
+				sc.nextLine();
+				Cadastro cliente = dao.buscar(codigo);
+				System.out.println(String.format("Nome/Razão: %s\nTelefone: %d", cliente.getRazao_nome(), cliente.getTelefone()));
+				opcao = Menu.escolha();
+				break;
 			case 6:
-				System.out.println("Finalizando...");
 				System.exit(0);
 				break;
 				
