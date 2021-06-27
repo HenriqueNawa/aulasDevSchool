@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
 import devschool.dao.CadastroDao;
@@ -19,7 +20,6 @@ public class Main {
 		Long telefone;
 		
 		while (opcao != 6) {
-			
 			switch (opcao) {
 			case 1:
 				System.out.println("Nome: ");
@@ -32,21 +32,22 @@ public class Main {
 				dao.incluir(cadastro);
 				opcao = Menu.escolha();
 				break;
+				
 			case 2:
 				System.out.println("Código do cliente: ");
 				codigo = sc.nextInt();
 				sc.nextLine();
-				System.out.println("Nome: ");
+				System.out.println("Nome/Razão: ");
 				nome = sc.nextLine();
 				System.out.println("Telefone: ");
 				telefone = sc.nextLong();
-				sc.nextLine();
 				cadastro.setCodigo(codigo);
 				cadastro.setRazao_nome(nome);
 				cadastro.setTelefone(telefone);
 				dao.alterar(cadastro);
 				opcao = Menu.escolha();
 				break;
+				
 			case 3:
 				System.out.println("Código do cliente: ");
 				codigo = sc.nextInt();
@@ -54,12 +55,24 @@ public class Main {
 				dao.excluir(codigo);
 				opcao = Menu.escolha();
 				break;
+				
 			case 4:
-				System.out.println(dao.listar());
+				List<Cadastro> clientes = dao.listar();
+		
+				clientes.stream().forEach(cli -> 
+					System.out.println("Código: " + cli.getCodigo() + "\n" + 
+					"Nome/Razão: " + cli.getRazao_nome() + "\n" + 
+					"Telefone: " + cli.getTelefone() + "\n" + "-".repeat(50)));
 				opcao = Menu.escolha();
 				break;
+				
+
+				
 			case 6:
+				System.out.println("Finalizando...");
+				System.exit(0);
 				break;
+				
 			default:
 				System.out.println("Opção Inválida!");
 				opcao = Menu.escolha();

@@ -62,14 +62,15 @@ public class CadastroDao {
 	public List<Cadastro> listar(){
 		List<Cadastro> lista = new ArrayList<Cadastro>();
 		try {
-			String sql = "SELECT razao_nome,telefone from public.tab_clientes";
+			String sql = "SELECT codigo, razao_nome,telefone from public.tab_clientes";
 			
 			PreparedStatement st = cnn.prepareStatement(sql);
 			ResultSet rs = st.executeQuery();
 			while (rs.next()) {
 				Cadastro cliente = new Cadastro();
-				cliente.setCodigo(rs.getInt(5));
-				
+				cliente.setCodigo(rs.getInt("codigo"));
+				cliente.setRazao_nome(rs.getString("razao_nome"));
+				cliente.setTelefone(rs.getLong("telefone"));
 				lista.add(cliente);
 			}
 			st.close();
