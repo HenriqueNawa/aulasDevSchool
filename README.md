@@ -6,7 +6,7 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
       <li>Lançado em 1995 pela Sun Microsystems, formado pelos engenheiros James Gosling, Patrick Naugthon, Sun Fellow</li>
       <li>Slogan: "Write once run anywhere" ou "Escreva uma vez, execute em qualquer lugar"</li>
     </ul>
-  <li>Compilação de um projeto Java</li>
+  <li>Compilação de um projeto Java</li><br />
     <ul>
       <p align= "center">
         <img src="http://taylorlopes.com/wp-content/uploads/2012/10/codigofonte-bytecode-jvm.png" alt="Java-compile" width="400" />
@@ -30,6 +30,8 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
   
   <li>Criação de arquivos</li>
   
+  <li>Controle de fluxo: decisão (if-else, switch) e repetição (while, for, do-while)</li>
+  
   <li>Conexão com Banco de Dados com driver JDBC</li>
   
   <li>Conceitos de Banco de dados e SQL</li>
@@ -47,6 +49,8 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
 [Javatpoint em Inglês](https://www.javatpoint.com/java-tutorial)<br/>
 [W3schools em Inglês](https://www.w3schools.com/java/default.asp)<br/>
 [Baeldung em Inglês](https://www.baeldung.com)<br/>
+[Java2s em Inglês](http://www.java2s.com) <br/>
+[Documentação Spring](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#preface)
 
 
 
