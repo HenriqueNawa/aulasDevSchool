@@ -37,6 +37,10 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
   <li>Conceitos de Banco de dados e SQL</li>
   
   <li>Framework JPA</li>
+  
+  <li>Java Collections</li>
+  
+  <li>Conceito e construção API Rest</li>
 </ul>
 
 ## Sites interessantes sobre Java
