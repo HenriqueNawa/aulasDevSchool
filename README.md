@@ -1,4 +1,6 @@
-# aulasDevSchool
+# aulasDevSchool - Java
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">&nbsp;&nbsp;<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"/>
+
 Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguagem Java, ministrado pelo instrutor Gleyson Sampaio.
 <ul>
   <li>História do Java</li>
