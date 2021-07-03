@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 import devschool.dao.CadastroDao;
 import devschool.menu.Menu;
+import devschool.menu.Opcao;
 import devschool.model.Cadastro;
 
 public class Main {
@@ -14,15 +15,16 @@ public class Main {
 		
 		Cadastro cadastro = new Cadastro();
 		
-		int opcao = Menu.escolha();
 		int codigo;
 		String nome;
 		Long telefone;
+		Opcao.values();
 		
-		while (opcao != 6) {
+		int opcao = Menu.escolha();
+		do {
 			switch (opcao) {
 			case 1:
-				System.out.println("Nome: ");
+				System.out.println("Nome/Razão: ");
 				nome = sc.nextLine();
 				System.out.println("Telefone: ");
 				telefone = sc.nextLong();
@@ -75,7 +77,6 @@ public class Main {
 				opcao = Menu.escolha();
 				break;
 			case 6:
-				System.exit(0);
 				break;
 				
 			default:
@@ -83,9 +84,10 @@ public class Main {
 				opcao = Menu.escolha();
 				break;
 			}
-		}
+		} while (opcao != 6);
 		
-		
+		System.exit(0);
+
 
 		
 	}
