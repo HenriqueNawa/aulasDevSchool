@@ -40,7 +40,14 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
   
   <li>Framework JPA</li>
   
-  <li>Java Collections</li>
+  <li>Java Collection
+    <ul>
+      <li>List</li>
+      <li>Set </li>
+      <li>Map</li>
+   <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/tree/main/Collections/src/collections">Queue</a></li>     
+     </ul>
+  </li>
   
   <li>Conceito e construção API Rest</li>
 </ul>
