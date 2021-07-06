@@ -45,11 +45,12 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
       <li>List</li>
       <li>Set </li>
       <li>Map</li>
-   <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/tree/main/Collections/src/collections">Queue</a></li>     
+   <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/tree/main/Collections/src/collections">Queue</a></li>  
      </ul>
   </li>
   
   <li>Conceito e construção API Rest</li>
+  <li><a href="https://github.com/HenriqueNawa/sis-cadastro-jpa-final" >Projeto Final Spring JPA</a></li>
 </ul>
 
 ## Sites interessantes sobre Java
