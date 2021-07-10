@@ -1,5 +1,10 @@
 # aulasDevSchool - Java
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">&nbsp;&nbsp;<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">&nbsp;
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
 
 Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguagem Java, ministrado pelo instrutor Gleyson Sampaio.
 <ul>
@@ -22,7 +27,7 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
  
   <li>Modificadores de acesso</li>
   
-  <li>Metodologia Ágil</li>
+  <li>Metodologia Ágil, ministrado por Ana Banach</li>
   
   <li>POO</li>
   
@@ -42,10 +47,10 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
   
   <li>Java Collection
     <ul>
-      <li>List</li>
+      <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/tree/main/Collections/src/collections">Queue</a></li>  
+      <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/blob/main/Collections/src/collections/List/src/collections/ListExample.java">List</a></li>
       <li>Set </li>
       <li>Map</li>
-   <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/tree/main/Collections/src/collections">Queue</a></li>  
      </ul>
   </li>
   
