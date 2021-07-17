@@ -41,7 +41,7 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
   
   <li>Conexão com Banco de Dados com driver JDBC</li>
   
-  <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/tree/main/agendamento-consulta/Documentacao">Conceito de Banco de dados e SQL</a></li>
+  <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/tree/main/projeto-jdbc/Documentacao">Conceito de Banco de dados e SQL</a></li>
   
   <li>Framework JPA</li>
   
@@ -49,7 +49,7 @@ Desenvolvimento das aulas e aprendizados durante a DevSchool com foco na Linguag
     <ul>
       <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/tree/main/Collections/src/collections">Queue</a></li>  
       <li><a href="https://github.com/HenriqueNawa/aulasDevSchool/blob/main/Collections/src/collections/List/src/collections/ListExample.java">List</a></li>
-      <li>Set </li>
+      <li><a href= "https://github.com/HenriqueNawa/aulasDevSchool/blob/main/Collections/src/collections/Set/src/SetExample.java">Set</a></li>
       <li>Map</li>
      </ul>
   </li>
